@@ -14,7 +14,3 @@ export const Button = styled.TouchableOpacity<ButtonProps>`
   justify-content: center;
   ${(props)=> (props.margin ? `margin: ${props.margin};` : '')}
 `
-
-export const TitleButton = styled.Text`
-  color: #fff;
-`
