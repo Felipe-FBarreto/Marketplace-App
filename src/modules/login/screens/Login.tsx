@@ -14,7 +14,7 @@ const Login = () => {
 
   return (
     <C.ContainerLogin behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
-      <Text type={textTypes.TITLE} color='#000'>Login</Text>
+      <Text type={textTypes.SUB_TITLE_BOLD}  color='#000'>Login</Text>
       <Input />
       <Button margin='8px' title='ENTRAR' onPress={handleOnPress}/>
     </C.ContainerLogin>
