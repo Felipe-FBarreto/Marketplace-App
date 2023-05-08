@@ -1,5 +1,5 @@
 import LinearGradient from 'react-native-linear-gradient';
-import { theme } from './../themes/theme/theme';
+import { theme } from '../themes/theme/theme';
 import styled from "styled-components/native";
 
 interface ButtonProps {
