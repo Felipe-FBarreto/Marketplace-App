@@ -1,7 +1,20 @@
-export const grayTheme = {
-    gray80: '#B1BBC2'
+export const GRAY_THEME = {
+    gray80: '#B1BBC2',
+    gray100: '#929898'
 }
 
-export const neutralTheme = {
+export const NEUTRAL_THEME = {
   white: '#fff'
+}
+
+export const MAIN_THEME = {
+  primary : '#8C29B0'
+}
+
+export const PINK_THEME = {
+  pink80: '#C833DB'
+}
+
+export const PURPLE_THEME = {
+  purple80: '#512c85'
 }
